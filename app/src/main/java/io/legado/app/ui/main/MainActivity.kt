@@ -72,7 +72,7 @@ class MainActivity : VMBaseActivity<ActivityMainBinding, MainViewModel>(),
     private var pagePosition = 0
     private val fragmentMap = hashMapOf<Int, Fragment>()
     private var bottomMenuCount = 4
-    private val realPositions = arrayOf(idBookshelf, idExplore, idRss, idMy)
+    private val realPositions = arrayOf(idBookshelf, idExplore, idMy)
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         upBottomMenu()
