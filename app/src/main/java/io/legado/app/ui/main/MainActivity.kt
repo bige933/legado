@@ -71,7 +71,7 @@ class MainActivity : VMBaseActivity<ActivityMainBinding, MainViewModel>(),
     private var exploreReselected: Long = 0
     private var pagePosition = 0
     private val fragmentMap = hashMapOf<Int, Fragment>()
-    private var bottomMenuCount = 4
+    private var bottomMenuCount = 3
     private val realPositions = arrayOf(idBookshelf, idExplore, idMy)
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
